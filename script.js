@@ -1,3 +1,7 @@
-let age = prompt();
-if (age >= 14 && age <= 90);
-alert(age);
+let age1 = parseInt(prompt("Введіть бали за перший екзамен", '14'));
+let age2 = parseInt(prompt("Введіть бали за другий екзамен", '90'));
+if (age1 >= 14 && age2 <= 90) {
+    alert('Ви допущені до наступного екзамену');
+} else {
+    alert('Ви не вступили в університет');
+}
